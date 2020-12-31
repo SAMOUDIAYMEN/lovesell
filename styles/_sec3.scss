@@ -1,0 +1,56 @@
+.sec3{
+    
+display: inline-flex;
+.cardHolder{
+    display: flex;
+    align-items: stretch;
+    width: 50vw;
+    margin: auto;
+  }
+  
+  button{
+    width: 1em;
+    border: none;
+    background: #0084C2;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    outline: none;
+    opacity: 0.5;
+    transition: opacity 300ms ease-out;
+    
+    &:hover{
+      opacity: 1;
+    }
+  }
+  
+  .scroller{
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .items{
+    list-style-type: none;
+    white-space: nowrap;
+    font-size: 0;
+    line-height: 0;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .item{
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: bold;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  }
+}
+.card img{
+    border-radius: 50%;
+}

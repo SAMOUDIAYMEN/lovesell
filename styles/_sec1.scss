@@ -1,0 +1,23 @@
+.sec1{
+    background-color: #0084C2;
+    height: 100vh;
+    .intro{
+        
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        height: 100%;
+        width: 100%;
+        .img{
+            width: 45vw;
+        }
+        .content{
+            width: 50vw;
+            padding-right: 4em;
+            
+        }
+        .h4{
+            color: white;
+        }
+    }
+}

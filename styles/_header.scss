@@ -1,0 +1,33 @@
+header{
+    height: 5em;
+    width: 100vw;
+    /*background-color: white;
+    box-shadow: 1px 1px .3em rgb(168, 168, 168);*/
+    display: flex;
+    position: fixed;
+    background-color: #0085c2f6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    font-weight: 700;
+    ul{
+        list-style: none;
+        
+    }
+    li{
+        display: inline;
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 0 1em;
+        transition: 300ms;
+        /*test*/
+        color: white;
+    }
+    
+    .logo{
+        height: 2em;
+    }
+}
